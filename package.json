@@ -1,0 +1,33 @@
+{
+  "name": "pompeya",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:browser": "vitest --browser"
+  },
+  "dependencies": {
+    "@vueuse/core": "^14.2.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitest/browser": "^4.0.18",
+    "@vitest/browser-playwright": "^4.0.18",
+    "@vitest/ui": "^4.0.18",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.19",
+    "playwright": "^1.58.2",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^4.0.0",
+    "vite": "^5.2.8",
+    "vitest": "^4.0.18"
+  }
+}
